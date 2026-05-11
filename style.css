@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #C7D6FD;
+    margin: 0;
+    padding: 20px;
+}
+
+.center-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startBtn, #restartBtn {
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5C6BC0;
+    color: white;
+    cursor: pointer;
+}
